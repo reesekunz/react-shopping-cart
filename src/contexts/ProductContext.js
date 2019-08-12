@@ -1,7 +1,7 @@
-import React, { createContext} from "react";
+import React, { createContext } from "react";
 
-const ProductContext = createContext();
-console.log(NameContext);
-console.log(NameContext.Provider)
-console.log(NameContext.Consumer)
+export const ProductContext = createContext();
+console.log(ProductContext);
+console.log(ProductContext.Provider)
+console.log(ProductContext.Consumer)
 
